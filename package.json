@@ -1,0 +1,41 @@
+{
+  "name": "wakeup-call",
+  "version": "1.0.0",
+  "description": "you set what time you want the program to call you in the morning. It then tells you the weather for the day. If you do not answer, it keeps calling until you do answer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'no test yet'",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "wakeup",
+    "call",
+    "morning",
+    "call",
+    "Bandwidth"
+  ],
+  "author": "Jillian Troftgruben",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "body-parser-xml": "^1.1.0",
+    "express": "^4.15.3",
+    "jquery": "^3.2.1",
+    "json-stringify": "^1.0.0",
+    "mocha": "^3.4.2",
+    "newsapi": "^1.0.2",
+    "node-bandwidth": "^2.3.2",
+    "openweather-apis": "^3.3.2",
+    "openweather-node": "0.0.4",
+    "stringify": "^5.1.0",
+    "weather-js": "^2.0.0",
+    "xml2js": "^0.4.17"
+  },
+  "devDependencies": {
+    "mocha": "^3.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "wakeup-call"
+  }
+}
